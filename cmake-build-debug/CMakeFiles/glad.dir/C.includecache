@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/3rdParty/glad/glad_4_6/glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../src/3rdParty/glad/glad_4_6/glad/include/glad/gl.h
+winapifamily.h
+-
+KHR/khrplatform.h
+-
+
+C:/Users/pasha/Desktop/3d-main/src/3rdParty/glad/glad_4_6/glad/src/gl.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/gl.h
+-
+

@@ -1,0 +1,12 @@
+"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\pasha\Desktop\3d-main
+-- Including Win32 support
+-- GLM: Version 0.9.9.9
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Zoom does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/CameraMovement does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Textures does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Phong does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/MultipleLights does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/NormalMaps does not exists.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/pasha/Desktop/3d-main/cmake-build-debug
