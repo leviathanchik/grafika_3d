@@ -1,10 +1,15 @@
 #include "app.h"
 
-int main()
-{
+#include "glad/gl.h"
 
-    SimpleShapeApplication app(650, 480, PROJECT_NAME, true);
+int main() {
+
+    SimpleShapeApplication app(650, 480, PROJECT_NAME,true);
+
+
     app.run(1);
 
+
     return 0;
+
 }

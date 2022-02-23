@@ -5,10 +5,11 @@ layout(location=1) in vec3 a_vertex_color;
 out vec3 vertex_color;
 
 layout(std140) uniform Transformations {
-    mat4 PVM;
+    mat4 P;
+    mat4 V;
 };
 
 void main() {
-    gl_Position = PVM*a_vertex_position;
+    gl_Position = P*V*a_vertex_position;
     vertex_color = a_vertex_color;
 }

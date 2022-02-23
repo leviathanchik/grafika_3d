@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
+CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -228,6 +228,19 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\spdlog-build\CMakeFiles\spdlog.dir\build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
 # Target rules for targets named application
 
 # Build rule for target.
@@ -239,6 +252,45 @@ application: cmake_check_build_system
 application/fast:
 	$(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/build
 .PHONY : application/fast
+
+#=============================================================================
+# Target rules for targets named objreader
+
+# Build rule for target.
+objreader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 objreader
+.PHONY : objreader
+
+# fast build rule for target.
+objreader/fast:
+	$(MAKE) $(MAKESILENT) -f src\ObjectReader\CMakeFiles\objreader.dir\build.make src/ObjectReader/CMakeFiles/objreader.dir/build
+.PHONY : objreader/fast
+
+#=============================================================================
+# Target rules for targets named xe-engine
+
+# Build rule for target.
+xe-engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 xe-engine
+.PHONY : xe-engine
+
+# fast build rule for target.
+xe-engine/fast:
+	$(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/build
+.PHONY : xe-engine/fast
+
+#=============================================================================
+# Target rules for targets named engine
+
+# Build rule for target.
+engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine
+.PHONY : engine
+
+# fast build rule for target.
+engine/fast:
+	$(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/build
+.PHONY : engine/fast
 
 #=============================================================================
 # Target rules for targets named Triangle
@@ -344,6 +396,45 @@ Resizing/fast:
 	$(MAKE) $(MAKESILENT) -f src\Assignments\Resizing\CMakeFiles\Resizing.dir\build.make src/Assignments/Resizing/CMakeFiles/Resizing.dir/build
 .PHONY : Resizing/fast
 
+#=============================================================================
+# Target rules for targets named Zoom
+
+# Build rule for target.
+Zoom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Zoom
+.PHONY : Zoom
+
+# fast build rule for target.
+Zoom/fast:
+	$(MAKE) $(MAKESILENT) -f src\Assignments\Zoom\CMakeFiles\Zoom.dir\build.make src/Assignments/Zoom/CMakeFiles/Zoom.dir/build
+.PHONY : Zoom/fast
+
+#=============================================================================
+# Target rules for targets named CameraMovement
+
+# Build rule for target.
+CameraMovement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CameraMovement
+.PHONY : CameraMovement
+
+# fast build rule for target.
+CameraMovement/fast:
+	$(MAKE) $(MAKESILENT) -f src\Assignments\CameraMovement\CMakeFiles\CameraMovement.dir\build.make src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/build
+.PHONY : CameraMovement/fast
+
+#=============================================================================
+# Target rules for targets named Phong
+
+# Build rule for target.
+Phong: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Phong
+.PHONY : Phong
+
+# fast build rule for target.
+Phong/fast:
+	$(MAKE) $(MAKESILENT) -f src\Assignments\Phong\CMakeFiles\Phong.dir\build.make src/Assignments/Phong/CMakeFiles/Phong.dir/build
+.PHONY : Phong/fast
+
 src/3rdParty/glad/glad_4_6/glad/src/gl.obj: src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj
 
 .PHONY : src/3rdParty/glad/glad_4_6/glad/src/gl.obj
@@ -385,17 +476,24 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... update_mappings
+	@echo ... CameraMovement
 	@echo ... Colors
 	@echo ... House
 	@echo ... Indices
 	@echo ... PVM
+	@echo ... Phong
 	@echo ... Pyramid
 	@echo ... Resizing
 	@echo ... Triangle
 	@echo ... Uniforms
+	@echo ... Zoom
 	@echo ... application
+	@echo ... engine
 	@echo ... glad
 	@echo ... glfw
+	@echo ... objreader
+	@echo ... spdlog
+	@echo ... xe-engine
 	@echo ... src/3rdParty/glad/glad_4_6/glad/src/gl.obj
 	@echo ... src/3rdParty/glad/glad_4_6/glad/src/gl.i
 	@echo ... src/3rdParty/glad/glad_4_6/glad/src/gl.s

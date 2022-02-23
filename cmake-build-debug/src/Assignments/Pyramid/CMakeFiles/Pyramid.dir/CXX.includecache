@@ -38,9 +38,9 @@ unordered_map
 glad/gl.h
 ../src/Application/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/app.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.h
 iostream
 -
 vector
@@ -52,17 +52,23 @@ glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/Application/utils.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.h
 vector
 -
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/Application/application.h
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/Application/utils.h
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/glad/gl.h
+
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/main.cpp
+app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.h
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

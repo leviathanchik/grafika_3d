@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild
+CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild
+CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild"
 
 # Utility rule file for glm-populate.
 
@@ -84,58 +84,58 @@ CMakeFiles/glm-populate-complete: glm-populate-prefix/src/glm-populate-stamp/glm
 CMakeFiles/glm-populate-complete: glm-populate-prefix/src/glm-populate-stamp/glm-populate-build
 CMakeFiles/glm-populate-complete: glm-populate-prefix/src/glm-populate-stamp/glm-populate-install
 CMakeFiles/glm-populate-complete: glm-populate-prefix/src/glm-populate-stamp/glm-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glm-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/CMakeFiles
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glm-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/CMakeFiles"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-install: glm-populate-prefix/src/glm-populate-stamp/glm-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'glm-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-build
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'glm-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-build"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-download: glm-populate-prefix/src/glm-populate-stamp/glm-populate-gitinfo.txt
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-download: glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-update: glm-populate-prefix/src/glm-populate-stamp/glm-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-src && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\glm-src && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch: glm-populate-prefix/src/glm-populate-stamp/glm-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'glm-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'glm-populate'"
 	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure: glm-populate-prefix/tmp/glm-populate-cfgcmd.txt
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure: glm-populate-prefix/src/glm-populate-stamp/glm-populate-update
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure: glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-build: glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build"
 
 glm-populate-prefix/src/glm-populate-stamp/glm-populate-test: glm-populate-prefix/src/glm-populate-stamp/glm-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'glm-populate'"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'glm-populate'"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLM-BU~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test"
 
 glm-populate: CMakeFiles/glm-populate
 glm-populate: CMakeFiles/glm-populate-complete
@@ -161,6 +161,6 @@ CMakeFiles/glm-populate.dir/clean:
 .PHONY : CMakeFiles/glm-populate.dir/clean
 
 CMakeFiles/glm-populate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glm-subbuild\CMakeFiles\glm-populate.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glm-subbuild\CMakeFiles\glm-populate.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/glm-populate.dir/depend
 

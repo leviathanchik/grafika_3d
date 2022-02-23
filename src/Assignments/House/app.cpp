@@ -13,7 +13,7 @@ void SimpleShapeApplication::init()
     auto program = xe::utils::create_program(
             {{GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
              {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
-
+    std::string(PROJECT_DIR) + ("/shaders/base_fs.glsl");
     if (!program)
     {
         std::cerr << "Invalid program" << std::endl;

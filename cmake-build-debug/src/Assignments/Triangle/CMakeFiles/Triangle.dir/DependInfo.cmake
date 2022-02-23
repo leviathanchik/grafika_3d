@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/app.cpp" "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj"
-  "C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/main.cpp" "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.obj"
+  "C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/app.cpp" "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj"
+  "C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/main.cpp" "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,8 +13,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "MAJOR=4"
   "MINOR=6"
-  "PROJECT_DIR=\"C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle\""
+  "PROJECT_DIR=\"C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle\""
   "PROJECT_NAME=\"Triangle\""
+  "ROOT_DIR=\"C:/Users/pasha/Desktop/3d-main x2\""
   "XE_DEBUG"
   )
 
@@ -29,8 +30,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Application/CMakeFiles/application.dir/DependInfo.cmake"
+  "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Application/CMakeFiles/application.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

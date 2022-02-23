@@ -38,9 +38,9 @@ unordered_map
 glad/gl.h
 ../src/Application/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.h
 iostream
 -
 vector
@@ -52,23 +52,25 @@ glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/Application/utils.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.h
 vector
 -
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/Application/application.h
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/Application/utils.h
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/glad/gl.h
 glm/glm.hpp
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/glm/glm.hpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/glm/glm.hpp
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/main.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/main.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.h
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

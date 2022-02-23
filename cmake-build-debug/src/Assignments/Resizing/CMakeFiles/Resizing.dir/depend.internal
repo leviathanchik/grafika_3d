@@ -6,8 +6,8 @@ src/Assignments/Resizing/CMakeFiles/Resizing.dir/app.cpp.obj
  ../src/3rdParty/glad/glad_4_6/glad/include/glad/gl.h
  ../src/Application/application.h
  ../src/Application/utils.h
- C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.cpp
- C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.h
+ C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.cpp
+ C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.h
  _deps/glfw-src/include/GLFW/glfw3.h
  _deps/glm-src/glm/common.hpp
  _deps/glm-src/glm/detail/_fixes.hpp
@@ -176,8 +176,8 @@ src/Assignments/Resizing/CMakeFiles/Resizing.dir/main.cpp.obj
  ../src/3rdParty/glad/glad_4_6/glad/include/glad/gl.h
  ../src/Application/application.h
  ../src/Application/utils.h
- C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/app.h
- C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/main.cpp
+ C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/app.h
+ C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/main.cpp
  _deps/glfw-src/include/GLFW/glfw3.h
  _deps/glm-src/glm/common.hpp
  _deps/glm-src/glm/detail/_fixes.hpp

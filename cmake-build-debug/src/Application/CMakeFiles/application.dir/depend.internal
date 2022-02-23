@@ -6,15 +6,15 @@ src/Application/CMakeFiles/application.dir/application.cpp.obj
  ../src/3rdParty/glad/glad_4_6/glad/include/glad/gl.h
  ../src/3rdParty/stb/stb_image_write.h
  ../src/Application/application.h
- C:/Users/pasha/Desktop/3d-main/src/Application/application.cpp
- C:/Users/pasha/Desktop/3d-main/src/Application/utils.h
+ C:/Users/pasha/Desktop/3d-main x2/src/Application/application.cpp
+ C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.h
  _deps/glfw-src/include/GLFW/glfw3.h
 src/Application/CMakeFiles/application.dir/shader_source.cpp.obj
  ../src/Application/shader_source.h
- C:/Users/pasha/Desktop/3d-main/src/Application/shader_source.cpp
+ C:/Users/pasha/Desktop/3d-main x2/src/Application/shader_source.cpp
 src/Application/CMakeFiles/application.dir/utils.cpp.obj
  ../src/3rdParty/glad/glad_4_6/glad/include/KHR/khrplatform.h
  ../src/3rdParty/glad/glad_4_6/glad/include/glad/gl.h
  ../src/Application/shader_source.h
- C:/Users/pasha/Desktop/3d-main/src/Application/utils.cpp
- C:/Users/pasha/Desktop/3d-main/src/Application/utils.h
+ C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.cpp
+ C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.h

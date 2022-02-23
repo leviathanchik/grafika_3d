@@ -1,12 +1,12 @@
 /**
  * @file application.cpp
  * @author Piotr Białas (piotr.bialas@uj.edu.pl)
- * @brief
+ * @brief 
  * @version 0.1
  * @date 2021-10-01
- *
+ * 
  * @copyright Copyright (c) 2021
- *
+ * 
  */
 
 //
@@ -28,23 +28,23 @@
 
 /**
  * @brief Predefined debuging callbacks.
- *
- * If generated with debug option GLAD  permits to register callbacks that will be called before and after each OpenGL function call.
+ * 
+ * If generated with debug option GLAD  permits to register callbacks that will be called before and after each OpenGL function call. 
  * This is switched off by default by me, so to not interfere with my error reporting code.  GLAD debuging can be enabled in the CMakeLists.txt file.
- *
- * This unnamed namespace contains two predefined postcall callbacks making them local to this file.
- *
+ * 
+ * This unnamed namespace contains two predefined postcall callbacks making them local to this file.  
+ * 
  */
 namespace
 {
     /**
-     * @brief
-     *
-     * @param ret
-     * @param name
-     * @param apiproc
-     * @param len_args
-     * @param ...
+     * @brief 
+     * 
+     * @param ret 
+     * @param name 
+     * @param apiproc 
+     * @param len_args 
+     * @param ... 
      */
 
     void _pre_call_callback(const char *name, GLADapiproc apiproc, int len_args, ...) {
@@ -68,12 +68,12 @@ namespace
 
 /**
  * @brief Construct a new xe::Application::Application object
- *
- * @param width  Width of the window
+ * 
+ * @param width  Width of the window    
  * @param height Height of the window
- * @param title Title of the created application window.
+ * @param title Title of the created application window. 
  * @param debug specify if the debug information should be generated after each OpenGL function call
- *              has efect only if compiled with debug version of glad.
+ *              has efect only if compiled with debug version of glad.     
  */
 xe::Application::Application(int width, int height, std::string title, bool debug) : screenshot_n_(0)
 {
@@ -109,7 +109,7 @@ xe::Application::Application(int width, int height, std::string title, bool debu
 #ifdef GLAD_OPTION_GL_DEBUG
         std::cerr << "GLAD_OPTION_GL_DEBUG\n";
         //Additionally if GLAD debugging is on, the we can still switch it off via debug variable.
-        //This works by registering an empty predefined above callback.
+        //This works by registering an empty predefined above callback.  
         if (debug) {
             std::cerr << "DEBUG ON\n";
             gladSetGLPreCallback(_pre_call_callback);
@@ -135,9 +135,9 @@ xe::Application::Application(int width, int height, std::string title, bool debu
 }
 
 /**
- * @brief This starts the main event loop.
- *
- * @param verbose unused parameter.
+ * @brief This starts the main event loop. 
+ * 
+ * @param verbose unused parameter. 
  */
 void xe::Application::run(int verbose)
 {
@@ -152,23 +152,23 @@ void xe::Application::run(int verbose)
     while (!glfwWindowShouldClose(window_))
     {
 
-        //Clear the framebuufer by filling it with color set using the glClearColor function.
-        //Also clears the depth buffer.
+        //Clear the framebuufer by filling it with color set using the glClearColor function. 
+        //Also clears the depth buffer. 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         //This method should be overidden by you and will contain the rendering code.
         frame();
-        /* Swap front and back buffers
-           The rendering is done into the BACK buffer, swapping it with front buffer displays it on the screen.
-           This is done after n screen updates where n is the number set by the glfwSwapInterwal.
-           Setting it to one as I did set the swap rate to v-sync rate.
+        /* Swap front and back buffers 
+           The rendering is done into the BACK buffer, swapping it with front buffer displays it on the screen.  
+           This is done after n screen updates where n is the number set by the glfwSwapInterwal. 
+           Setting it to one as I did set the swap rate to v-sync rate. 
         */
         glfwSwapBuffers(window_);
 
         /* Poll for and process events */
         glfwPollEvents();
 #ifdef __APPLE__
-        // A hack to fix bug in apple implementation.
-        // maybe not needed now. Didn't check :(
+        // A hack to fix bug in apple implementation. 
+        // maybe not needed now. Didn't check :( 
         if (!macMoved)
         {
             int x, y;
@@ -246,19 +246,19 @@ void xe::Application::save_frame_buffer()
 {
     glPixelStorei(GL_PACK_ALIGNMENT, 1);
     glReadBuffer(GL_FRONT);
-    if (glGetError() == GL_INVALID_OPERATION)
+    if (glGetError() == GL_INVALID_OPERATION) 
         std::cerr << "Saving Frame buffer error: Front buffer does not exist."<<std::endl;
 
     auto[w,h] = frame_buffer_size();
     auto data = (GLubyte *)malloc(w * h * 3);
     OGL_CALL(glReadPixels(0, 0, w, h, GL_RGB, GL_UNSIGNED_BYTE, data));
-
+    
     stbi_flip_vertically_on_write(1);
     std::stringstream ss;
     ss << "screenshot_" << std::setw(3) << std::setfill('0') << screenshot_n_ << ".png";
     stbi_write_png(ss.str().c_str(), w, h, 3, data, w * 3);
     ++screenshot_n_;
-    std::cerr<<ss.str()<<"\n";
+    std::cerr<<ss.str()<<"\n"; 
 }
 
 void xe::Application::glfw_window_refresh_callback(GLFWwindow *window)

@@ -45,7 +45,7 @@ namespace xe
 
         virtual void window_refresh_callback();
 
-
+       
 
     protected:
         GLFWwindow *window_;

@@ -38,9 +38,9 @@ unordered_map
 glad/gl.h
 ../src/Application/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/app.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/app.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/app.h
 iostream
 -
 vector
@@ -48,21 +48,23 @@ vector
 tuple
 -
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/Application/utils.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/app.h
 vector
 -
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/Application/application.h
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/Application/utils.h
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/main.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/main.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/app.h
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

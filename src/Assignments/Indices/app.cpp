@@ -4,6 +4,7 @@
 #include <vector>
 #include <tuple>
 
+
 #include "Application/utils.h"
 
 void SimpleShapeApplication::init()
@@ -13,6 +14,8 @@ void SimpleShapeApplication::init()
     auto program = xe::utils::create_program(
             {{GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
              {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
+    std::string(PROJECT_DIR) + ("/shaders/base_fs.glsl");
+
 
     if (!program) {
         std::cerr << "Cannot create program from " << std::string(PROJECT_DIR) + "/shaders/base_vs.glsl" << " and ";
@@ -36,13 +39,13 @@ void SimpleShapeApplication::init()
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     std::vector<GLushort> indices = {
-            0,1,2,3,4,5,5,6,3 // wypisujemy tyle elementów ile mamy wierzchołków
+           0,1,2,3,4,5,5,6,3 // wypisujemy tyle elementów ile mamy wierzchołków
     };
     GLuint idx_buffer_handle;
-    glGenBuffers(1,&idx_buffer_handle);
+    glGenBuffers(1,&idx_buffer_handle); 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, idx_buffer_handle);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLushort), indices.data(),
-                 GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLushort), indices.data(), 
+                        GL_STATIC_DRAW);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
 

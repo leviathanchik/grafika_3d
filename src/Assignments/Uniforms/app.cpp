@@ -1,8 +1,13 @@
+//
+// Created by pbialas on 25.09.2020.
+//
+
 #include "app.h"
 
 #include <iostream>
 #include <vector>
 #include <tuple>
+
 
 #include "Application/utils.h"
 
@@ -13,17 +18,18 @@ void SimpleShapeApplication::init()
     auto program = xe::utils::create_program(
             {{GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
              {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
+    std::string(PROJECT_DIR) + ("/shaders/base_fs.glsl");
 
     if (!program) {
         std::cerr << "Cannot create program from " << std::string(PROJECT_DIR) + "/shaders/base_vs.glsl" << " and ";
         std::cerr << std::string(PROJECT_DIR) + "/shaders/base_fs.glsl" << " shader files" << std::endl;
     }
 
-    auto u_modifiers_index = glGetUniformBlockIndex(program, "Modifiers");
-    if (u_modifiers_index == GL_INVALID_INDEX) {
-        std::cout << "Cannot find Modifiers uniform block in program" << std::endl;
-    } else {
-        glUniformBlockBinding(program, u_modifiers_index, 0);
+    auto u_modifiers_index = glGetUniformBlockIndex(program, "Modifiers"); 
+    if (u_modifiers_index == GL_INVALID_INDEX) { 
+        std::cout << "Cannot find Modifiers uniform block in program" << std::endl; 
+    } else { 
+        glUniformBlockBinding(program, u_modifiers_index, 0); 
     }
 
     std::vector<GLfloat> vertices = {
@@ -43,13 +49,13 @@ void SimpleShapeApplication::init()
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     std::vector<GLushort> indices = {
-            0,1,2,3,4,5,5,6,3 // wypisujemy tyle elementów ile mamy wierzchołków
+           0,1,2,3,4,5,5,6,3 // wypisujemy tyle elementów ile mamy wierzchołków
     };
     GLuint idx_buffer_handle;
-    glGenBuffers(1,&idx_buffer_handle);
+    glGenBuffers(1,&idx_buffer_handle); 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, idx_buffer_handle);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLushort), indices.data(),
-                 GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(GLushort), indices.data(), 
+                        GL_STATIC_DRAW);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
     GLuint ubo_handle(0u);
@@ -58,7 +64,7 @@ void SimpleShapeApplication::init()
     glBindBuffer(GL_UNIFORM_BUFFER, ubo_handle);
     glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(float), nullptr, GL_STATIC_DRAW);
 
-    float strength = 0.5f;
+    float strength = 0.5f; 
     float light[3] = {0.7f, 0.2f, 0.3f};
 
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);

@@ -38,9 +38,9 @@ unordered_map
 glad/gl.h
 ../src/Application/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/app.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/app.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/app.h
 iostream
 -
 vector
@@ -48,17 +48,23 @@ vector
 tuple
 -
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/Application/utils.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/app.h
 vector
 -
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/Application/application.h
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/Application/utils.h
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/glad/gl.h
+
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/main.cpp
+app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/app.h
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

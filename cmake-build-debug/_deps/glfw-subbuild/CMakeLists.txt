@@ -12,8 +12,8 @@ project(glfw-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(glfw-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/glfw/glfw.git"
-                    SOURCE_DIR          "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src"
-                    BINARY_DIR          "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-build"
+                    SOURCE_DIR          "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src"
+                    BINARY_DIR          "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pasha/Desktop/3d-main/src/Application
+# Install script for directory: C:/Users/pasha/Desktop/3d-main x2/src/Application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

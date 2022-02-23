@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
+CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include src/Assignments/House/CMakeFiles/House.dir/depend.make
@@ -79,30 +79,30 @@ include src/Assignments/House/CMakeFiles/House.dir/flags.make
 src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj: src/Assignments/House/CMakeFiles/House.dir/flags.make
 src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj: src/Assignments/House/CMakeFiles/House.dir/includes_CXX.rsp
 src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj: ../src/Assignments/House/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\House.dir\main.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\House\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\House.dir\main.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\main.cpp"
 
 src/Assignments/House/CMakeFiles/House.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/House.dir/main.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\House\main.cpp > CMakeFiles\House.dir\main.cpp.i
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\main.cpp" > CMakeFiles\House.dir\main.cpp.i
 
 src/Assignments/House/CMakeFiles/House.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/House.dir/main.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\House\main.cpp -o CMakeFiles\House.dir\main.cpp.s
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\main.cpp" -o CMakeFiles\House.dir\main.cpp.s
 
 src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj: src/Assignments/House/CMakeFiles/House.dir/flags.make
 src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj: src/Assignments/House/CMakeFiles/House.dir/includes_CXX.rsp
 src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj: ../src/Assignments/House/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\House.dir\app.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\House\app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\House.dir\app.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\app.cpp"
 
 src/Assignments/House/CMakeFiles/House.dir/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/House.dir/app.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\House\app.cpp > CMakeFiles\House.dir\app.cpp.i
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\app.cpp" > CMakeFiles\House.dir\app.cpp.i
 
 src/Assignments/House/CMakeFiles/House.dir/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/House.dir/app.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\House\app.cpp -o CMakeFiles\House.dir\app.cpp.s
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House\app.cpp" -o CMakeFiles\House.dir\app.cpp.s
 
 # Object files for target House
 House_OBJECTS = \
@@ -111,7 +111,7 @@ House_OBJECTS = \
 
 # External object files for target House
 House_EXTERNAL_OBJECTS = \
-"C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+"C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
 
 src/Assignments/House/House.exe: src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj
 src/Assignments/House/House.exe: src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj
@@ -123,8 +123,8 @@ src/Assignments/House/House.exe: _deps/glfw-build/src/libglfw3.a
 src/Assignments/House/House.exe: src/Assignments/House/CMakeFiles/House.dir/linklibs.rsp
 src/Assignments/House/House.exe: src/Assignments/House/CMakeFiles/House.dir/objects1.rsp
 src/Assignments/House/House.exe: src/Assignments/House/CMakeFiles/House.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable House.exe"
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\House.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable House.exe"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\House.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Assignments/House/CMakeFiles/House.dir/build: src/Assignments/House/House.exe
@@ -132,10 +132,10 @@ src/Assignments/House/CMakeFiles/House.dir/build: src/Assignments/House/House.ex
 .PHONY : src/Assignments/House/CMakeFiles/House.dir/build
 
 src/Assignments/House/CMakeFiles/House.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House && $(CMAKE_COMMAND) -P CMakeFiles\House.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\House && $(CMAKE_COMMAND) -P CMakeFiles\House.dir\cmake_clean.cmake
 .PHONY : src/Assignments/House/CMakeFiles/House.dir/clean
 
 src/Assignments/House/CMakeFiles/House.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\src\Assignments\House C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\House\CMakeFiles\House.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\House" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\House" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\House\CMakeFiles\House.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/Assignments/House/CMakeFiles/House.dir/depend
 

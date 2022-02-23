@@ -38,9 +38,9 @@ unordered_map
 glad/gl.h
 ../src/Application/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/app.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/app.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/app.h
 iostream
 -
 vector
@@ -48,21 +48,23 @@ vector
 tuple
 -
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/Application/utils.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/app.h
 vector
 -
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/Application/application.h
 Application/utils.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/Application/utils.h
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/glad/gl.h
 
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/main.cpp
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/main.cpp
 app.h
-C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/app.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/app.h
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

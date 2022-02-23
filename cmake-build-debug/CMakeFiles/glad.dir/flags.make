@@ -4,7 +4,7 @@
 # compile C with C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
 C_FLAGS = -g   -std=gnu11
 
-C_DEFINES = -DMAJOR=4 -DMINOR=6 -DXE_DEBUG
+C_DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR="\"C:/Users/pasha/Desktop/3d-main x2\"" -DXE_DEBUG
 
 C_INCLUDES = @CMakeFiles/glad.dir/includes_C.rsp
 

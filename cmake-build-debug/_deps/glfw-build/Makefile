@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
+CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build\CMakeFiles\progress.marks
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-build\CMakeFiles\progress.marks"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/clean
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/preinstall
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/preinstall
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/glfw-build/CMakeFiles/uninstall.dir/rule:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/CMakeFiles/uninstall.dir/rule
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/glfw-build/CMakeFiles/uninstall.dir/rule
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ uninstall: _deps/glfw-build/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\glfw-build\CMakeFiles\uninstall.dir\build.make _deps/glfw-build/CMakeFiles/uninstall.dir/build
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f _deps\glfw-build\CMakeFiles\uninstall.dir\build.make _deps/glfw-build/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

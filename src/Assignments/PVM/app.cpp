@@ -1,3 +1,7 @@
+//
+// Created by pbialas on 25.09.2020.
+//
+
 #include "app.h"
 
 #include <iostream>
@@ -8,6 +12,8 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include "Application/utils.h"
 
+// Ten kod naprawdę prosi się o gruby refactor
+
 void SimpleShapeApplication::init()
 {
     // A utility function that reads the shader sources, compiles them and creates the program object
@@ -15,6 +21,7 @@ void SimpleShapeApplication::init()
     auto program = xe::utils::create_program(
             {{GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
              {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
+    std::string(PROJECT_DIR) + ("/shaders/base_fs.glsl");
 
     if (!program) {
         std::cerr << "Cannot create program from " << std::string(PROJECT_DIR) + "/shaders/base_vs.glsl" << " and ";
@@ -35,20 +42,6 @@ void SimpleShapeApplication::init()
         glUniformBlockBinding(program, u_pvm_index, 1);
     }
 
-    glm::mat4 M(1.0f);
-
-    glm::mat4 V = glm::lookAt(
-            glm::vec3{0.2, -0.2, 1.0},
-            glm::vec3{0.5f, 0.5f, 0.0f},
-            glm::vec3{0.0, 0.0, 1.0});
-
-    glm::mat4 P =  glm::perspective(
-            glm::radians(45.0f),
-            650.0f / 480.0f,
-            0.1f,
-            100.0f);
-
-    glm::mat4 PVM = P * V * M;
     std::vector<GLfloat> vertices = {
             -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
             0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
@@ -94,6 +87,10 @@ void SimpleShapeApplication::init()
     glBindBuffer(GL_UNIFORM_BUFFER, upvm_handle);
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
 
+    glm::mat4 M(1.0f);
+    glm::mat4 V = glm::lookAt(glm::vec3{0.0, -0.5, 2.0}, glm::vec3{0.0f, 0.0f, 0.0f}, glm::vec3{0.0, 0.0, 1.0});
+    glm::mat4 P =  glm::perspective(glm::radians(45.0f),650.0f / 480.0f,0.1f,100.0f); // poprawione 19.12.2020
+    glm::mat4 PVM = P * V * M;
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 

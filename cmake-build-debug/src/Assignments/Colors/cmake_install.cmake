@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors
+# Install script for directory: C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

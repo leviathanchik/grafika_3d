@@ -44,9 +44,19 @@ iomanip
 GLFW/glfw3.h
 -
 
-C:/Users/pasha/Desktop/3d-main/src/Application/application.cpp
+../src/Application/shader_source.h
+vector
+-
+iostream
+-
+fstream
+-
+sstream
+-
+
+C:/Users/pasha/Desktop/3d-main x2/src/Application/application.cpp
 Application/application.h
-C:/Users/pasha/Desktop/3d-main/src/Application/Application/application.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/Application/application.h
 iostream
 -
 sstream
@@ -54,13 +64,39 @@ sstream
 tuple
 -
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Application/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/glad/gl.h
 utils.h
-C:/Users/pasha/Desktop/3d-main/src/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.h
 stb/stb_image_write.h
-C:/Users/pasha/Desktop/3d-main/src/Application/stb/stb_image_write.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/stb/stb_image_write.h
 
-C:/Users/pasha/Desktop/3d-main/src/Application/utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/shader_source.cpp
+Application/shader_source.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/Application/shader_source.h
+regex
+-
+
+C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.cpp
+utils.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.h
+vector
+-
+iostream
+-
+sstream
+-
+fstream
+-
+unordered_map
+-
+cstring
+-
+glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/glad/gl.h
+Application/shader_source.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/Application/shader_source.h
+
+C:/Users/pasha/Desktop/3d-main x2/src/Application/utils.h
 iostream
 -
 string
@@ -68,7 +104,7 @@ string
 unordered_map
 -
 glad/gl.h
-C:/Users/pasha/Desktop/3d-main/src/Application/glad/gl.h
+C:/Users/pasha/Desktop/3d-main x2/src/Application/glad/gl.h
 
 _deps/glfw-src/include/GLFW/glfw3.h
 stddef.h

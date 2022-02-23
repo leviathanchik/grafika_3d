@@ -5,7 +5,7 @@ in vec3 vertex_color;
 
 layout(std140) uniform Modifiers {
    float strength;
-  vec3 light;
+  vec3 light; 
 };
 
 void main() {

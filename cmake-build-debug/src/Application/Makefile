@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
+CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Application\CMakeFiles\progress.marks
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Application\CMakeFiles\progress.marks"
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/clean
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/preinstall
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/preinstall
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Application/CMakeFiles/application.dir/rule:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/CMakeFiles/application.dir/rule
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Application/CMakeFiles/application.dir/rule
 .PHONY : src/Application/CMakeFiles/application.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ application: src/Application/CMakeFiles/application.dir/rule
 
 # fast build rule for target.
 application/fast:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/build
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/build
 .PHONY : application/fast
 
 application.obj: application.cpp.obj
@@ -196,7 +196,7 @@ application.obj: application.cpp.obj
 
 # target to build an object file
 application.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.obj
 .PHONY : application.cpp.obj
 
 application.i: application.cpp.i
@@ -205,7 +205,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.i
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -214,7 +214,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.s
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 shader_source.obj: shader_source.cpp.obj
@@ -223,7 +223,7 @@ shader_source.obj: shader_source.cpp.obj
 
 # target to build an object file
 shader_source.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.obj
 .PHONY : shader_source.cpp.obj
 
 shader_source.i: shader_source.cpp.i
@@ -232,7 +232,7 @@ shader_source.i: shader_source.cpp.i
 
 # target to preprocess a source file
 shader_source.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.i
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.i
 .PHONY : shader_source.cpp.i
 
 shader_source.s: shader_source.cpp.s
@@ -241,7 +241,7 @@ shader_source.s: shader_source.cpp.s
 
 # target to generate assembly for a file
 shader_source.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.s
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/shader_source.cpp.s
 .PHONY : shader_source.cpp.s
 
 utils.obj: utils.cpp.obj
@@ -250,7 +250,7 @@ utils.obj: utils.cpp.obj
 
 # target to build an object file
 utils.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.obj
 .PHONY : utils.cpp.obj
 
 utils.i: utils.cpp.i
@@ -259,7 +259,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.i
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -268,7 +268,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.s
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Application\CMakeFiles\application.dir\build.make src/Application/CMakeFiles/application.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -304,6 +304,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

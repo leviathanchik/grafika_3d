@@ -5,35 +5,36 @@
 		<Option title="Pyramid"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Assignments\;CMake Files\src\Assignments\Colors\;CMake Files\src\Assignments\Triangle\;CMake Files\src\Assignments\House\;CMake Files\src\Assignments\Indices\;CMake Files\src\Assignments\Uniforms\;CMake Files\src\Assignments\PVM\;CMake Files\src\Assignments\Pyramid\;CMake Files\src\Assignments\Resizing\;CMake Files\src\Application\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\glfw-src\;CMake Files\cmake-build-debug\_deps\glfw-src\CMake\;CMake Files\cmake-build-debug\_deps\glfw-src\src\;CMake Files\cmake-build-debug\_deps\glm-src\;CMake Files\cmake-build-debug\_deps\glm-src\glm\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\Assignments\;CMake Files\src\Assignments\CameraMovement\;CMake Files\src\Assignments\Colors\;CMake Files\src\Assignments\Triangle\;CMake Files\src\Assignments\House\;CMake Files\src\Assignments\Indices\;CMake Files\src\Assignments\Uniforms\;CMake Files\src\Assignments\PVM\;CMake Files\src\Assignments\Pyramid\;CMake Files\src\Assignments\Resizing\;CMake Files\src\Assignments\Zoom\;CMake Files\src\Assignments\Phong\;CMake Files\src\Engine\;CMake Files\src\Application\;CMake Files\src\ObjectReader\;CMake Files\src\XeEngine\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\glfw-src\;CMake Files\cmake-build-debug\_deps\glfw-src\CMake\;CMake Files\cmake-build-debug\_deps\glfw-src\src\;CMake Files\cmake-build-debug\_deps\glm-src\;CMake Files\cmake-build-debug\_deps\glm-src\glm\;CMake Files\cmake-build-debug\_deps\spdlog-src\;CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid"/>
+				<Option working_dir="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Pyramid">
-				<Option output="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Pyramid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid"/>
+				<Option output="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Pyramid.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DROOT_DIR=&quot;C:/Users/pasha/Desktop/3d-main x2&quot;"/>
 					<Add option="-DXE_DEBUG"/>
 					<Add option="-DMAJOR=4"/>
 					<Add option="-DMINOR=6"/>
 					<Add option="-DPROJECT_NAME=&quot;Pyramid&quot;"/>
-					<Add option="-DPROJECT_DIR=&quot;C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid&quot;"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src/3rdParty"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src/3rdParty/glad/glad_4_6/glad/include"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/include"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src"/>
+					<Add option="-DPROJECT_DIR=&quot;C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid&quot;"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src/3rdParty"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src/3rdParty/glad/glad_4_6/glad/include"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -42,29 +43,30 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 Pyramid"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 Pyramid"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Pyramid/fast">
-				<Option output="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Pyramid.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid"/>
+				<Option output="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Pyramid.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DROOT_DIR=&quot;C:/Users/pasha/Desktop/3d-main x2&quot;"/>
 					<Add option="-DXE_DEBUG"/>
 					<Add option="-DMAJOR=4"/>
 					<Add option="-DMINOR=6"/>
 					<Add option="-DPROJECT_NAME=&quot;Pyramid&quot;"/>
-					<Add option="-DPROJECT_DIR=&quot;C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid&quot;"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src/3rdParty"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/src/3rdParty/glad/glad_4_6/glad/include"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/include"/>
-					<Add directory="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src"/>
+					<Add option="-DPROJECT_DIR=&quot;C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid&quot;"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src/3rdParty"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/src/3rdParty/glad/glad_4_6/glad/include"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -73,75 +75,102 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 Pyramid/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 Pyramid/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/Assignments/Pyramid/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj">
 			<Option target="Pyramid"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/app.cpp">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.cpp">
 			<Option target="Pyramid"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/app.h">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/app.h">
 			<Option target="Pyramid"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/main.cpp">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/main.cpp">
 			<Option target="Pyramid"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Colors/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/CameraMovement/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Assignments\CameraMovement\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Colors/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Colors\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Triangle/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Triangle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Triangle\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/House/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/House/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\House\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Indices/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Indices/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Indices\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Uniforms/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Uniforms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Uniforms\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/PVM/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/PVM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\PVM\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Pyramid/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Pyramid/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Pyramid\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Assignments/Resizing/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Resizing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Assignments\Resizing\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/src/Application/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Zoom/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Assignments\Zoom\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Phong/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Assignments\Phong\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Engine\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/Application/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\Application\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/ObjectReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ObjectReader\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/src/XeEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\XeEngine\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/CMake/cmake_uninstall.cmake.in">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/CMake/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/CMake/glfw3.pc.in">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/CMake/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/CMake/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/CMake/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\"/>
 		</Unit>
-		<Unit filename="C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src/glm/CMakeLists.txt">
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src/glm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-src/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-src/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
