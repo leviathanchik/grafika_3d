@@ -1,7 +1,3 @@
-//
-// Created by ttrata on 18.11.2020.
-//
-
 #include "glm/glm.hpp"
 #include <cmath>
 
