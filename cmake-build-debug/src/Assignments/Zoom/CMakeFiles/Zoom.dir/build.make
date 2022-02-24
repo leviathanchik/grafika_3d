@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/Assignments/Zoom/CMakeFiles/Zoom.dir/depend.make
@@ -79,30 +79,30 @@ include src/Assignments/Zoom/CMakeFiles/Zoom.dir/flags.make
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj: src/Assignments/Zoom/CMakeFiles/Zoom.dir/flags.make
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj: src/Assignments/Zoom/CMakeFiles/Zoom.dir/includes_CXX.rsp
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj: ../src/Assignments/Zoom/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zoom.dir\main.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zoom.dir\main.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\main.cpp
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zoom.dir/main.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\main.cpp" > CMakeFiles\Zoom.dir\main.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\main.cpp > CMakeFiles\Zoom.dir\main.cpp.i
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zoom.dir/main.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\main.cpp" -o CMakeFiles\Zoom.dir\main.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\main.cpp -o CMakeFiles\Zoom.dir\main.cpp.s
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj: src/Assignments/Zoom/CMakeFiles/Zoom.dir/flags.make
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj: src/Assignments/Zoom/CMakeFiles/Zoom.dir/includes_CXX.rsp
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj: ../src/Assignments/Zoom/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zoom.dir\app.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\app.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zoom.dir\app.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\app.cpp
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zoom.dir/app.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\app.cpp" > CMakeFiles\Zoom.dir\app.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\app.cpp > CMakeFiles\Zoom.dir\app.cpp.i
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zoom.dir/app.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom\app.cpp" -o CMakeFiles\Zoom.dir\app.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom\app.cpp -o CMakeFiles\Zoom.dir\app.cpp.s
 
 # Object files for target Zoom
 Zoom_OBJECTS = \
@@ -111,7 +111,7 @@ Zoom_OBJECTS = \
 
 # External object files for target Zoom
 Zoom_EXTERNAL_OBJECTS = \
-"C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+"C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
 
 src/Assignments/Zoom/Zoom.exe: src/Assignments/Zoom/CMakeFiles/Zoom.dir/main.cpp.obj
 src/Assignments/Zoom/Zoom.exe: src/Assignments/Zoom/CMakeFiles/Zoom.dir/app.cpp.obj
@@ -123,8 +123,8 @@ src/Assignments/Zoom/Zoom.exe: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Zoom/Zoom.exe: src/Assignments/Zoom/CMakeFiles/Zoom.dir/linklibs.rsp
 src/Assignments/Zoom/Zoom.exe: src/Assignments/Zoom/CMakeFiles/Zoom.dir/objects1.rsp
 src/Assignments/Zoom/Zoom.exe: src/Assignments/Zoom/CMakeFiles/Zoom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Zoom.exe"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Zoom.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Zoom.exe"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Zoom.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/build: src/Assignments/Zoom/Zoom.exe
@@ -132,10 +132,10 @@ src/Assignments/Zoom/CMakeFiles/Zoom.dir/build: src/Assignments/Zoom/Zoom.exe
 .PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/build
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Zoom && $(CMAKE_COMMAND) -P CMakeFiles\Zoom.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom && $(CMAKE_COMMAND) -P CMakeFiles\Zoom.dir\cmake_clean.cmake
 .PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/clean
 
 src/Assignments/Zoom/CMakeFiles/Zoom.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Zoom" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Zoom" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Zoom\CMakeFiles\Zoom.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\src\Assignments\Zoom C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Zoom\CMakeFiles\Zoom.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Assignments/Zoom/CMakeFiles/Zoom.dir/depend
 

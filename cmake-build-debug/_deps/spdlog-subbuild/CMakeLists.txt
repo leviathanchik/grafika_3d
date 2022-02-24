@@ -12,8 +12,8 @@ project(spdlog-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(spdlog-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/gabime/spdlog.git" "GIT_TAG" "v1.x"
-                    SOURCE_DIR          "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-src"
-                    BINARY_DIR          "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-build"
+                    SOURCE_DIR          "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-src"
+                    BINARY_DIR          "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

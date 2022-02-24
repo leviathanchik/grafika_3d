@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glm-src/glm
+# Install script for directory: C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glm-src/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

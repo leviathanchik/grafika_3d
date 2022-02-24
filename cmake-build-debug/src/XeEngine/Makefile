@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\XeEngine\CMakeFiles\progress.marks"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\XeEngine\CMakeFiles\progress.marks
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/clean
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/XeEngine/CMakeFiles/xe-engine.dir/rule:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/CMakeFiles/xe-engine.dir/rule
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/XeEngine/CMakeFiles/xe-engine.dir/rule
 .PHONY : src/XeEngine/CMakeFiles/xe-engine.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ xe-engine: src/XeEngine/CMakeFiles/xe-engine.dir/rule
 
 # fast build rule for target.
 xe-engine/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/build
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/build
 .PHONY : xe-engine/fast
 
 ColorMaterial.obj: ColorMaterial.cpp.obj
@@ -196,7 +196,7 @@ ColorMaterial.obj: ColorMaterial.cpp.obj
 
 # target to build an object file
 ColorMaterial.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.obj
 .PHONY : ColorMaterial.cpp.obj
 
 ColorMaterial.i: ColorMaterial.cpp.i
@@ -205,7 +205,7 @@ ColorMaterial.i: ColorMaterial.cpp.i
 
 # target to preprocess a source file
 ColorMaterial.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.i
 .PHONY : ColorMaterial.cpp.i
 
 ColorMaterial.s: ColorMaterial.cpp.s
@@ -214,7 +214,7 @@ ColorMaterial.s: ColorMaterial.cpp.s
 
 # target to generate assembly for a file
 ColorMaterial.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.s
 .PHONY : ColorMaterial.cpp.s
 
 Mesh.obj: Mesh.cpp.obj
@@ -223,7 +223,7 @@ Mesh.obj: Mesh.cpp.obj
 
 # target to build an object file
 Mesh.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.obj
 .PHONY : Mesh.cpp.obj
 
 Mesh.i: Mesh.cpp.i
@@ -232,7 +232,7 @@ Mesh.i: Mesh.cpp.i
 
 # target to preprocess a source file
 Mesh.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.i
 .PHONY : Mesh.cpp.i
 
 Mesh.s: Mesh.cpp.s
@@ -241,7 +241,7 @@ Mesh.s: Mesh.cpp.s
 
 # target to generate assembly for a file
 Mesh.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.s
 .PHONY : Mesh.cpp.s
 
 Node.obj: Node.cpp.obj
@@ -250,7 +250,7 @@ Node.obj: Node.cpp.obj
 
 # target to build an object file
 Node.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.obj
 .PHONY : Node.cpp.obj
 
 Node.i: Node.cpp.i
@@ -259,7 +259,7 @@ Node.i: Node.cpp.i
 
 # target to preprocess a source file
 Node.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.i
 .PHONY : Node.cpp.i
 
 Node.s: Node.cpp.s
@@ -268,7 +268,7 @@ Node.s: Node.cpp.s
 
 # target to generate assembly for a file
 Node.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
 PhongMaterial.obj: PhongMaterial.cpp.obj
@@ -277,7 +277,7 @@ PhongMaterial.obj: PhongMaterial.cpp.obj
 
 # target to build an object file
 PhongMaterial.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.obj
 .PHONY : PhongMaterial.cpp.obj
 
 PhongMaterial.i: PhongMaterial.cpp.i
@@ -286,7 +286,7 @@ PhongMaterial.i: PhongMaterial.cpp.i
 
 # target to preprocess a source file
 PhongMaterial.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.i
 .PHONY : PhongMaterial.cpp.i
 
 PhongMaterial.s: PhongMaterial.cpp.s
@@ -295,7 +295,7 @@ PhongMaterial.s: PhongMaterial.cpp.s
 
 # target to generate assembly for a file
 PhongMaterial.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.s
 .PHONY : PhongMaterial.cpp.s
 
 Scene.obj: Scene.cpp.obj
@@ -304,7 +304,7 @@ Scene.obj: Scene.cpp.obj
 
 # target to build an object file
 Scene.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.obj
 .PHONY : Scene.cpp.obj
 
 Scene.i: Scene.cpp.i
@@ -313,7 +313,7 @@ Scene.i: Scene.cpp.i
 
 # target to preprocess a source file
 Scene.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.i
 .PHONY : Scene.cpp.i
 
 Scene.s: Scene.cpp.s
@@ -322,7 +322,7 @@ Scene.s: Scene.cpp.s
 
 # target to generate assembly for a file
 Scene.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.s
 .PHONY : Scene.cpp.s
 
 mesh_loader.obj: mesh_loader.cpp.obj
@@ -331,7 +331,7 @@ mesh_loader.obj: mesh_loader.cpp.obj
 
 # target to build an object file
 mesh_loader.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.obj
 .PHONY : mesh_loader.cpp.obj
 
 mesh_loader.i: mesh_loader.cpp.i
@@ -340,7 +340,7 @@ mesh_loader.i: mesh_loader.cpp.i
 
 # target to preprocess a source file
 mesh_loader.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.i
 .PHONY : mesh_loader.cpp.i
 
 mesh_loader.s: mesh_loader.cpp.s
@@ -349,7 +349,7 @@ mesh_loader.s: mesh_loader.cpp.s
 
 # target to generate assembly for a file
 mesh_loader.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.s
 .PHONY : mesh_loader.cpp.s
 
 stb_image.obj: stb_image.cpp.obj
@@ -358,7 +358,7 @@ stb_image.obj: stb_image.cpp.obj
 
 # target to build an object file
 stb_image.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
 stb_image.i: stb_image.cpp.i
@@ -367,7 +367,7 @@ stb_image.i: stb_image.cpp.i
 
 # target to preprocess a source file
 stb_image.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -376,7 +376,7 @@ stb_image.s: stb_image.cpp.s
 
 # target to generate assembly for a file
 stb_image.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 utils.obj: utils.cpp.obj
@@ -385,7 +385,7 @@ utils.obj: utils.cpp.obj
 
 # target to build an object file
 utils.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.obj
 .PHONY : utils.cpp.obj
 
 utils.i: utils.cpp.i
@@ -394,7 +394,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -403,7 +403,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\XeEngine\CMakeFiles\xe-engine.dir\build.make src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -454,6 +454,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

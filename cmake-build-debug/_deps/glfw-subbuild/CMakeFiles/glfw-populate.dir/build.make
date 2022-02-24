@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild
 
 # Utility rule file for glfw-populate.
 
@@ -84,58 +84,58 @@ CMakeFiles/glfw-populate-complete: glfw-populate-prefix/src/glfw-populate-stamp/
 CMakeFiles/glfw-populate-complete: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build
 CMakeFiles/glfw-populate-complete: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install
 CMakeFiles/glfw-populate-complete: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glfw-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'glfw-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'glfw-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-src"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-build"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'glfw-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-src
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-build
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-gitinfo.txt
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\glfw-src && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-src && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'glfw-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'glfw-populate'"
 	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure: glfw-populate-prefix/tmp/glfw-populate-cfgcmd.txt
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build
 
 glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test: glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'glfw-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\GLFW-B~1 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'glfw-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test
 
 glfw-populate: CMakeFiles/glfw-populate
 glfw-populate: CMakeFiles/glfw-populate-complete
@@ -161,6 +161,6 @@ CMakeFiles/glfw-populate.dir/clean:
 .PHONY : CMakeFiles/glfw-populate.dir/clean
 
 CMakeFiles/glfw-populate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles\glfw-populate.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\glfw-subbuild\CMakeFiles\glfw-populate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/glfw-populate.dir/depend
 

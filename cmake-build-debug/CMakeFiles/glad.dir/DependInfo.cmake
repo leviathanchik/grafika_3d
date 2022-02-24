@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/pasha/Desktop/3d-main x2/src/3rdParty/glad/glad_4_6/glad/src/gl.c" "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+  "C:/Users/pasha/Desktop/3d-main/src/3rdParty/glad/glad_4_6/glad/src/gl.c" "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -12,7 +12,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_C
   "MAJOR=4"
   "MINOR=6"
-  "ROOT_DIR=\"C:/Users/pasha/Desktop/3d-main x2\""
+  "ROOT_DIR=\"C:/Users/pasha/Desktop/3d-main\""
   "XE_DEBUG"
   )
 

@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild
 
 # Utility rule file for spdlog-populate.
 
@@ -84,58 +84,58 @@ CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'spdlog-populate'"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-src"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-build"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp"
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'spdlog-populate'"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-src
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-build
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-gitinfo.txt
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~2 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'spdlog-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'spdlog-populate'"
 	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch"
+	"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure: spdlog-populate-prefix/tmp/spdlog-populate-cfgcmd.txt
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'spdlog-populate'"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'spdlog-populate'"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test
 
 spdlog-populate: CMakeFiles/spdlog-populate
 spdlog-populate: CMakeFiles/spdlog-populate-complete
@@ -161,6 +161,6 @@ CMakeFiles/spdlog-populate.dir/clean:
 .PHONY : CMakeFiles/spdlog-populate.dir/clean
 
 CMakeFiles/spdlog-populate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spdlog-populate.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/pasha/Desktop/3d-main x2/src/ObjectReader/obj_reader.cpp" "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.obj"
+  "C:/Users/pasha/Desktop/3d-main/src/ObjectReader/obj_reader.cpp" "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "MAJOR=4"
   "MINOR=6"
-  "ROOT_DIR=\"C:/Users/pasha/Desktop/3d-main x2\""
+  "ROOT_DIR=\"C:/Users/pasha/Desktop/3d-main\""
   "SPDLOG_COMPILED_LIB"
   "XE_DEBUG"
   )
@@ -29,8 +29,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/_deps/spdlog-build/CMakeFiles/spdlog.dir/DependInfo.cmake"
+  "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/pasha/Desktop/3d-main/cmake-build-debug/_deps/spdlog-build/CMakeFiles/spdlog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -37,8 +37,8 @@ public:
 
     void LMB_released(float x, float y) {
         LMB_pressed_ = false;
-        auto dx = x - x_;
         auto dy = y - y_;
+        auto dx = x - x_;
 
         rotate_camera(dx, dy);
     };

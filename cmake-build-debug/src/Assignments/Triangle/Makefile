@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Triangle\CMakeFiles\progress.marks"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Triangle\CMakeFiles\progress.marks
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/clean
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
 .PHONY : src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ Triangle: src/Assignments/Triangle/CMakeFiles/Triangle.dir/rule
 
 # fast build rule for target.
 Triangle/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/build
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/build
 .PHONY : Triangle/fast
 
 app.obj: app.cpp.obj
@@ -196,7 +196,7 @@ app.obj: app.cpp.obj
 
 # target to build an object file
 app.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj
 .PHONY : app.cpp.obj
 
 app.i: app.cpp.i
@@ -205,7 +205,7 @@ app.i: app.cpp.i
 
 # target to preprocess a source file
 app.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.i
 .PHONY : app.cpp.i
 
 app.s: app.cpp.s
@@ -214,7 +214,7 @@ app.s: app.cpp.s
 
 # target to generate assembly for a file
 app.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.s
 .PHONY : app.cpp.s
 
 main.obj: main.cpp.obj
@@ -223,7 +223,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -232,7 +232,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -241,7 +241,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Assignments\Triangle\CMakeFiles\Triangle.dir\build.make src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

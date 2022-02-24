@@ -1,7 +1,3 @@
-//
-// Created by pbialas on 25.09.2020.
-//
-
 #include "app.h"
 
 #include <iostream>
@@ -12,7 +8,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include "Application/utils.h"
 
-// Ten kod naprawdę prosi się o gruby refactor
+
 
 void SimpleShapeApplication::init()
 {

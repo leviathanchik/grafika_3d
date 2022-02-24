@@ -4,7 +4,7 @@
 # compile C with C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
 C_FLAGS = -g   -Wall -std=c99
 
-C_DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR="\"C:/Users/pasha/Desktop/3d-main x2\"" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
+C_DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/pasha/Desktop/3d-main\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
 
 C_INCLUDES = @CMakeFiles/glfw.dir/includes_C.rsp
 

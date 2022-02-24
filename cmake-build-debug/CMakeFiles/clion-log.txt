@@ -1,16 +1,40 @@
-"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2"
+"C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\pasha\Desktop\3d-main
+-- The CXX compiler identification is GNU 8.1.0
+-- The C compiler identification is GNU 8.1.0
+-- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
+-- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- Including Win32 support
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
 -- GLM: Version 0.9.9.9
 -- Build spdlog: 1.9.2
 -- Build type: Debug
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Meshes does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Materials does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/MeshesMaterials does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/SceneGraph does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Textures does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/PBR does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/MultipleLights does not exists.
-Warning: directory C:/Users/pasha/Desktop/3d-main x2/src/Assignments/NormalMaps does not exists.
+-- Found OpenGL: opengl32   
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Meshes does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Materials does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/MeshesMaterials does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/SceneGraph does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/Textures does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/PBR does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/MultipleLights does not exists.
+Warning: directory C:/Users/pasha/Desktop/3d-main/src/Assignments/NormalMaps does not exists.
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug
+-- Build files have been written to: C:/Users/pasha/Desktop/3d-main/cmake-build-debug

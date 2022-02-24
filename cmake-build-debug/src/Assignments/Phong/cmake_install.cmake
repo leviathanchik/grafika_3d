@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pasha/Desktop/3d-main x2/src/Assignments/Phong
+# Install script for directory: C:/Users/pasha/Desktop/3d-main/src/Assignments/Phong
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj: CMakeFiles/glad.dir/flags.make
 CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj: CMakeFiles/glad.dir/includes_C.rsp
 CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj: ../src/3rdParty/glad/glad_4_6/glad/src/gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj   -c "C:\Users\pasha\Desktop\3d-main x2\src\3rdParty\glad\glad_4_6\glad\src\gl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.obj   -c C:\Users\pasha\Desktop\3d-main\src\3rdParty\glad\glad_4_6\glad\src\gl.c
 
 CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\3rdParty\glad\glad_4_6\glad\src\gl.c" > CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\3rdParty\glad\glad_4_6\glad\src\gl.c > CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.i
 
 CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\3rdParty\glad\glad_4_6\glad\src\gl.c" -o CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\3rdParty\glad\glad_4_6\glad\src\gl.c -o CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src\gl.c.s
 
 glad: CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj
 glad: CMakeFiles/glad.dir/build.make
@@ -105,6 +105,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles\glad.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles\glad.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/glad.dir/depend
 

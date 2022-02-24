@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
 CXX_FLAGS = -g   -std=c++17
 
-CXX_DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR="\"C:/Users/pasha/Desktop/3d-main x2\"" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
+CXX_DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/pasha/Desktop/3d-main\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
 
 CXX_INCLUDES = @CMakeFiles/spdlog.dir/includes_CXX.rsp
 

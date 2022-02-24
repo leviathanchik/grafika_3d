@@ -7,8 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineSystem.cmake"
   "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake"
   "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake"
+  "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystem.cmake.in"
   "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Apps/apps/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/ExternalProject.cmake"
@@ -31,6 +33,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.17.3/CMakeSystem.cmake"
   "spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-gitinfo.txt"
   "spdlog-populate-prefix/tmp/spdlog-populate-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include _deps/spdlog-build/CMakeFiles/spdlog.dir/depend.make
@@ -79,100 +79,100 @@ include _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: _deps/spdlog-src/src/spdlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\spdlog.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\spdlog.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/spdlog.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp" > CMakeFiles\spdlog.dir\src\spdlog.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp > CMakeFiles\spdlog.dir\src\spdlog.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/spdlog.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp" -o CMakeFiles\spdlog.dir\src\spdlog.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\spdlog.cpp -o CMakeFiles\spdlog.dir\src\spdlog.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: _deps/spdlog-src/src/stdout_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp" > CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp > CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp" -o CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\stdout_sinks.cpp -o CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: _deps/spdlog-src/src/color_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/color_sinks.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp" > CMakeFiles\spdlog.dir\src\color_sinks.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp > CMakeFiles\spdlog.dir\src\color_sinks.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/color_sinks.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp" -o CMakeFiles\spdlog.dir\src\color_sinks.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\color_sinks.cpp -o CMakeFiles\spdlog.dir\src\color_sinks.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: _deps/spdlog-src/src/file_sinks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/file_sinks.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp" > CMakeFiles\spdlog.dir\src\file_sinks.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp > CMakeFiles\spdlog.dir\src\file_sinks.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/file_sinks.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp" -o CMakeFiles\spdlog.dir\src\file_sinks.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\file_sinks.cpp -o CMakeFiles\spdlog.dir\src\file_sinks.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: _deps/spdlog-src/src/async.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\async.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\async.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\async.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\async.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/async.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\async.cpp" > CMakeFiles\spdlog.dir\src\async.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\async.cpp > CMakeFiles\spdlog.dir\src\async.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/async.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\async.cpp" -o CMakeFiles\spdlog.dir\src\async.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\async.cpp -o CMakeFiles\spdlog.dir\src\async.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: _deps/spdlog-src/src/cfg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\cfg.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\cfg.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/cfg.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp" > CMakeFiles\spdlog.dir\src\cfg.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp > CMakeFiles\spdlog.dir\src\cfg.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/cfg.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp" -o CMakeFiles\spdlog.dir\src\cfg.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\cfg.cpp -o CMakeFiles\spdlog.dir\src\cfg.cpp.s
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/flags.make
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj: _deps/spdlog-build/CMakeFiles/spdlog.dir/includes_CXX.rsp
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj: _deps/spdlog-src/src/fmt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\fmt.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spdlog.dir\src\fmt.cpp.obj -c C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spdlog.dir/src/fmt.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp" > CMakeFiles\spdlog.dir\src\fmt.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp > CMakeFiles\spdlog.dir\src\fmt.cpp.i
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spdlog.dir/src/fmt.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp" -o CMakeFiles\spdlog.dir\src\fmt.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src\src\fmt.cpp -o CMakeFiles\spdlog.dir\src\fmt.cpp.s
 
 # Object files for target spdlog
 spdlog_OBJECTS = \
@@ -196,9 +196,9 @@ _deps/spdlog-build/libspdlogd.a: _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cf
 _deps/spdlog-build/libspdlogd.a: _deps/spdlog-build/CMakeFiles/spdlog.dir/src/fmt.cpp.obj
 _deps/spdlog-build/libspdlogd.a: _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make
 _deps/spdlog-build/libspdlogd.a: _deps/spdlog-build/CMakeFiles/spdlog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libspdlogd.a"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && $(CMAKE_COMMAND) -P CMakeFiles\spdlog.dir\cmake_clean_target.cmake
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spdlog.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libspdlogd.a"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && $(CMAKE_COMMAND) -P CMakeFiles\spdlog.dir\cmake_clean_target.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spdlog.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/spdlog-build/CMakeFiles/spdlog.dir/build: _deps/spdlog-build/libspdlogd.a
@@ -206,10 +206,10 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/build: _deps/spdlog-build/libspdlogd.a
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/build
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\_deps\SPDLOG~3 && $(CMAKE_COMMAND) -P CMakeFiles\spdlog.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build && $(CMAKE_COMMAND) -P CMakeFiles\spdlog.dir\cmake_clean.cmake
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/clean
 
 _deps/spdlog-build/CMakeFiles/spdlog.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-src" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-build" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\_deps\spdlog-build\CMakeFiles\spdlog.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-src C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build C:\Users\pasha\Desktop\3d-main\cmake-build-debug\_deps\spdlog-build\CMakeFiles\spdlog.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/depend
 

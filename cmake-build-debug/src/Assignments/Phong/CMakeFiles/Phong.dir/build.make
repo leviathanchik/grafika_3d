@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/Assignments/Phong/CMakeFiles/Phong.dir/depend.make
@@ -79,44 +79,44 @@ include src/Assignments/Phong/CMakeFiles/Phong.dir/flags.make
 src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/flags.make
 src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/includes_CXX.rsp
 src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj: ../src/Assignments/Phong/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\main.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\main.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\main.cpp
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phong.dir/main.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\main.cpp" > CMakeFiles\Phong.dir\main.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\main.cpp > CMakeFiles\Phong.dir\main.cpp.i
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phong.dir/main.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\main.cpp" -o CMakeFiles\Phong.dir\main.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\main.cpp -o CMakeFiles\Phong.dir\main.cpp.s
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/flags.make
 src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/includes_CXX.rsp
 src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj: ../src/Assignments/Phong/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\app.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\app.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\app.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\app.cpp
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phong.dir/app.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\app.cpp" > CMakeFiles\Phong.dir\app.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\app.cpp > CMakeFiles\Phong.dir\app.cpp.i
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phong.dir/app.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\app.cpp" -o CMakeFiles\Phong.dir\app.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\app.cpp -o CMakeFiles\Phong.dir\app.cpp.s
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/flags.make
 src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.obj: src/Assignments/Phong/CMakeFiles/Phong.dir/includes_CXX.rsp
 src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.obj: ../src/Assignments/Phong/quad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\quad.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\quad.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Phong.dir\quad.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\quad.cpp
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phong.dir/quad.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\quad.cpp" > CMakeFiles\Phong.dir\quad.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\quad.cpp > CMakeFiles\Phong.dir\quad.cpp.i
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/quad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phong.dir/quad.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong\quad.cpp" -o CMakeFiles\Phong.dir\quad.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong\quad.cpp -o CMakeFiles\Phong.dir\quad.cpp.s
 
 # Object files for target Phong
 Phong_OBJECTS = \
@@ -126,7 +126,7 @@ Phong_OBJECTS = \
 
 # External object files for target Phong
 Phong_EXTERNAL_OBJECTS = \
-"C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+"C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
 
 src/Assignments/Phong/Phong.exe: src/Assignments/Phong/CMakeFiles/Phong.dir/main.cpp.obj
 src/Assignments/Phong/Phong.exe: src/Assignments/Phong/CMakeFiles/Phong.dir/app.cpp.obj
@@ -139,8 +139,8 @@ src/Assignments/Phong/Phong.exe: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Phong/Phong.exe: src/Assignments/Phong/CMakeFiles/Phong.dir/linklibs.rsp
 src/Assignments/Phong/Phong.exe: src/Assignments/Phong/CMakeFiles/Phong.dir/objects1.rsp
 src/Assignments/Phong/Phong.exe: src/Assignments/Phong/CMakeFiles/Phong.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Phong.exe"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Phong.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Phong.exe"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Phong.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Assignments/Phong/CMakeFiles/Phong.dir/build: src/Assignments/Phong/Phong.exe
@@ -148,10 +148,10 @@ src/Assignments/Phong/CMakeFiles/Phong.dir/build: src/Assignments/Phong/Phong.ex
 .PHONY : src/Assignments/Phong/CMakeFiles/Phong.dir/build
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Phong && $(CMAKE_COMMAND) -P CMakeFiles\Phong.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong && $(CMAKE_COMMAND) -P CMakeFiles\Phong.dir\cmake_clean.cmake
 .PHONY : src/Assignments/Phong/CMakeFiles/Phong.dir/clean
 
 src/Assignments/Phong/CMakeFiles/Phong.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Phong" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Phong" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Phong\CMakeFiles\Phong.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\src\Assignments\Phong C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Phong\CMakeFiles\Phong.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Assignments/Phong/CMakeFiles/Phong.dir/depend
 

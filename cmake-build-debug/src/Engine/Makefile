@@ -67,10 +67,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Engine\CMakeFiles\progress.marks"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine\CMakeFiles\progress.marks
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/clean
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/preinstall
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Engine/CMakeFiles/engine.dir/rule:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/CMakeFiles/engine.dir/rule
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Engine/CMakeFiles/engine.dir/rule
 .PHONY : src/Engine/CMakeFiles/engine.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ engine: src/Engine/CMakeFiles/engine.dir/rule
 
 # fast build rule for target.
 engine/fast:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/build
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
 Material.obj: Material.cpp.obj
@@ -196,7 +196,7 @@ Material.obj: Material.cpp.obj
 
 # target to build an object file
 Material.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.obj
 .PHONY : Material.cpp.obj
 
 Material.i: Material.cpp.i
@@ -205,7 +205,7 @@ Material.i: Material.cpp.i
 
 # target to preprocess a source file
 Material.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.i
 .PHONY : Material.cpp.i
 
 Material.s: Material.cpp.s
@@ -214,7 +214,7 @@ Material.s: Material.cpp.s
 
 # target to generate assembly for a file
 Material.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Material.cpp.s
 .PHONY : Material.cpp.s
 
 Mesh.obj: Mesh.cpp.obj
@@ -223,7 +223,7 @@ Mesh.obj: Mesh.cpp.obj
 
 # target to build an object file
 Mesh.cpp.obj:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj
 .PHONY : Mesh.cpp.obj
 
 Mesh.i: Mesh.cpp.i
@@ -232,7 +232,7 @@ Mesh.i: Mesh.cpp.i
 
 # target to preprocess a source file
 Mesh.cpp.i:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.i
 .PHONY : Mesh.cpp.i
 
 Mesh.s: Mesh.cpp.s
@@ -241,7 +241,7 @@ Mesh.s: Mesh.cpp.s
 
 # target to generate assembly for a file
 Mesh.cpp.s:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\Engine\CMakeFiles\engine.dir\build.make src/Engine/CMakeFiles/engine.dir/Mesh.cpp.s
 .PHONY : Mesh.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

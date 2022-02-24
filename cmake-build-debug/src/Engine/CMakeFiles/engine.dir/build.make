@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/Engine/CMakeFiles/engine.dir/depend.make
@@ -79,30 +79,30 @@ include src/Engine/CMakeFiles/engine.dir/flags.make
 src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj: src/Engine/CMakeFiles/engine.dir/flags.make
 src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj: src/Engine/CMakeFiles/engine.dir/includes_CXX.rsp
 src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj: ../src/Engine/Mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\engine.dir\Mesh.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Mesh.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\engine.dir\Mesh.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Engine\Mesh.cpp
 
 src/Engine/CMakeFiles/engine.dir/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/Mesh.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Mesh.cpp" > CMakeFiles\engine.dir\Mesh.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Engine\Mesh.cpp > CMakeFiles\engine.dir\Mesh.cpp.i
 
 src/Engine/CMakeFiles/engine.dir/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/Mesh.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Mesh.cpp" -o CMakeFiles\engine.dir\Mesh.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Engine\Mesh.cpp -o CMakeFiles\engine.dir\Mesh.cpp.s
 
 src/Engine/CMakeFiles/engine.dir/Material.cpp.obj: src/Engine/CMakeFiles/engine.dir/flags.make
 src/Engine/CMakeFiles/engine.dir/Material.cpp.obj: src/Engine/CMakeFiles/engine.dir/includes_CXX.rsp
 src/Engine/CMakeFiles/engine.dir/Material.cpp.obj: ../src/Engine/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Engine/CMakeFiles/engine.dir/Material.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\engine.dir\Material.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Material.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Engine/CMakeFiles/engine.dir/Material.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\engine.dir\Material.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Engine\Material.cpp
 
 src/Engine/CMakeFiles/engine.dir/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/Material.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Material.cpp" > CMakeFiles\engine.dir\Material.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Engine\Material.cpp > CMakeFiles\engine.dir\Material.cpp.i
 
 src/Engine/CMakeFiles/engine.dir/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/Material.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Engine\Material.cpp" -o CMakeFiles\engine.dir\Material.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Engine\Material.cpp -o CMakeFiles\engine.dir\Material.cpp.s
 
 # Object files for target engine
 engine_OBJECTS = \
@@ -111,16 +111,16 @@ engine_OBJECTS = \
 
 # External object files for target engine
 engine_EXTERNAL_OBJECTS = \
-"C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+"C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
 
 src/Engine/libengine.a: src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj
 src/Engine/libengine.a: src/Engine/CMakeFiles/engine.dir/Material.cpp.obj
 src/Engine/libengine.a: CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj
 src/Engine/libengine.a: src/Engine/CMakeFiles/engine.dir/build.make
 src/Engine/libengine.a: src/Engine/CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine.a"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && $(CMAKE_COMMAND) -P CMakeFiles\engine.dir\cmake_clean_target.cmake
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\engine.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine.a"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && $(CMAKE_COMMAND) -P CMakeFiles\engine.dir\cmake_clean_target.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Engine/CMakeFiles/engine.dir/build: src/Engine/libengine.a
@@ -128,10 +128,10 @@ src/Engine/CMakeFiles/engine.dir/build: src/Engine/libengine.a
 .PHONY : src/Engine/CMakeFiles/engine.dir/build
 
 src/Engine/CMakeFiles/engine.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\Engine && $(CMAKE_COMMAND) -P CMakeFiles\engine.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine && $(CMAKE_COMMAND) -P CMakeFiles\engine.dir\cmake_clean.cmake
 .PHONY : src/Engine/CMakeFiles/engine.dir/clean
 
 src/Engine/CMakeFiles/engine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\src\Engine" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Engine" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Engine\CMakeFiles\engine.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\src\Engine C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Engine\CMakeFiles\engine.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Engine/CMakeFiles/engine.dir/depend
 

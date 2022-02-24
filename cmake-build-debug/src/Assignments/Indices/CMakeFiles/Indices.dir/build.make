@@ -62,10 +62,10 @@ RM = "C:\Apps\apps\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\pasha\Desktop\3d-main x2"
+CMAKE_SOURCE_DIR = C:\Users\pasha\Desktop\3d-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\pasha\Desktop\3d-main\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/Assignments/Indices/CMakeFiles/Indices.dir/depend.make
@@ -79,30 +79,30 @@ include src/Assignments/Indices/CMakeFiles/Indices.dir/flags.make
 src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj: src/Assignments/Indices/CMakeFiles/Indices.dir/flags.make
 src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj: src/Assignments/Indices/CMakeFiles/Indices.dir/includes_CXX.rsp
 src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj: ../src/Assignments/Indices/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Indices.dir\main.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Indices.dir\main.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\main.cpp
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Indices.dir/main.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\main.cpp" > CMakeFiles\Indices.dir\main.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\main.cpp > CMakeFiles\Indices.dir\main.cpp.i
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Indices.dir/main.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\main.cpp" -o CMakeFiles\Indices.dir\main.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\main.cpp -o CMakeFiles\Indices.dir\main.cpp.s
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj: src/Assignments/Indices/CMakeFiles/Indices.dir/flags.make
 src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj: src/Assignments/Indices/CMakeFiles/Indices.dir/includes_CXX.rsp
 src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj: ../src/Assignments/Indices/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Indices.dir\app.cpp.obj -c "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\app.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Indices.dir\app.cpp.obj -c C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\app.cpp
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Indices.dir/app.cpp.i"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\app.cpp" > CMakeFiles\Indices.dir\app.cpp.i
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\app.cpp > CMakeFiles\Indices.dir\app.cpp.i
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Indices.dir/app.cpp.s"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices\app.cpp" -o CMakeFiles\Indices.dir\app.cpp.s
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices\app.cpp -o CMakeFiles\Indices.dir\app.cpp.s
 
 # Object files for target Indices
 Indices_OBJECTS = \
@@ -111,7 +111,7 @@ Indices_OBJECTS = \
 
 # External object files for target Indices
 Indices_EXTERNAL_OBJECTS = \
-"C:/Users/pasha/Desktop/3d-main x2/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
+"C:/Users/pasha/Desktop/3d-main/cmake-build-debug/CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj"
 
 src/Assignments/Indices/Indices.exe: src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj
 src/Assignments/Indices/Indices.exe: src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj
@@ -123,8 +123,8 @@ src/Assignments/Indices/Indices.exe: _deps/glfw-build/src/libglfw3.a
 src/Assignments/Indices/Indices.exe: src/Assignments/Indices/CMakeFiles/Indices.dir/linklibs.rsp
 src/Assignments/Indices/Indices.exe: src/Assignments/Indices/CMakeFiles/Indices.dir/objects1.rsp
 src/Assignments/Indices/Indices.exe: src/Assignments/Indices/CMakeFiles/Indices.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Indices.exe"
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Indices.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pasha\Desktop\3d-main\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Indices.exe"
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Indices.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Assignments/Indices/CMakeFiles/Indices.dir/build: src/Assignments/Indices/Indices.exe
@@ -132,10 +132,10 @@ src/Assignments/Indices/CMakeFiles/Indices.dir/build: src/Assignments/Indices/In
 .PHONY : src/Assignments/Indices/CMakeFiles/Indices.dir/build
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/clean:
-	cd /d C:\Users\pasha\Desktop\3D-MAI~1\CMAKE-~1\src\ASSIGN~1\Indices && $(CMAKE_COMMAND) -P CMakeFiles\Indices.dir\cmake_clean.cmake
+	cd /d C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices && $(CMAKE_COMMAND) -P CMakeFiles\Indices.dir\cmake_clean.cmake
 .PHONY : src/Assignments/Indices/CMakeFiles/Indices.dir/clean
 
 src/Assignments/Indices/CMakeFiles/Indices.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\pasha\Desktop\3d-main x2" "C:\Users\pasha\Desktop\3d-main x2\src\Assignments\Indices" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Indices" "C:\Users\pasha\Desktop\3d-main x2\cmake-build-debug\src\Assignments\Indices\CMakeFiles\Indices.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pasha\Desktop\3d-main C:\Users\pasha\Desktop\3d-main\src\Assignments\Indices C:\Users\pasha\Desktop\3d-main\cmake-build-debug C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices C:\Users\pasha\Desktop\3d-main\cmake-build-debug\src\Assignments\Indices\CMakeFiles\Indices.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Assignments/Indices/CMakeFiles/Indices.dir/depend
 
